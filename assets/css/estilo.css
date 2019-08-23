@@ -7,8 +7,19 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+.container--fix{
+  max-width: 400px;
+  margin: 0 auto;
+}
 .clearfix{
   overflow: auto;
+}
+input[type=text] {
+  width: 325px;
+  padding: 12px 20px;
+  margin: 6px 0;
+  border: none;
+  border-bottom: 2px solid #00420C;
 }
 
 /*header*/
@@ -52,6 +63,12 @@
   .main--title{
     font-family: 'Roboto', sans-serif;
     color: #00420C;
+    margin: 25px 0px 0px 0px;
+  }
+  .main--title-contato{
+    font-family: 'Roboto', sans-serif;
+    color: #00420C;
+    font-size: 24px;
     margin: 25px 0px 0px 0px;
   }
   .main--text{
@@ -132,25 +149,28 @@
   .main--image-prof{
     border-radius: 5px;
     border: 2px solid #00420C;
-    width: 114px;
+    width: 100px;
     float: left;
-    margin: 20px;
+  }
+  .main--div-prof{
+    margin: 21px;
   }
   .main--text-prof{
     font-family: 'Roboto', sans-serif;
     color: #00420C;
     font-size: 18px;
     text-align: left;
-    
-  }
-  .main--div-prof{
-
+    display: block;
+    margin-left: 110px;
   }
   .main--text-link{
     font-family: 'Roboto', sans-serif;
     color: #0000FF;
     font-size: 12px;
     
+  }
+  .main--div-contato{
+    text-align: left;
   }
   
   /*footer*/
