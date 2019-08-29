@@ -65,12 +65,7 @@ input[type=text] {
     color: #00420C;
     margin: 25px 0px 0px 0px;
   }
-  .main--title-contato{
-    font-family: 'Roboto', sans-serif;
-    color: #00420C;
-    font-size: 24px;
-    margin: 25px 0px 0px 0px;
-  }
+
   .main--text{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -167,10 +162,38 @@ input[type=text] {
     font-family: 'Roboto', sans-serif;
     color: #0000FF;
     font-size: 12px;
-    
   }
-  .main--div-contato{
+
+  .main--title-contato{
+    font-family: 'Roboto', sans-serif;
+    color: #00420C;
+    font-size: 24px;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+  }
+  .main--contato{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px;
+    color: #00420C;
+  }
+  .main--buttom{
+    margin-top: 30px;
+    background-color: #117A25;
+    color: white;
+    width: 326px;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
   }
   
   /*footer*/
