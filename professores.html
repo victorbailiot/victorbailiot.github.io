@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,14 +8,17 @@
   <link href="assets/css/estilo.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <header class="header">
     <div class="header--icon-align">
-      <div class="header--icon-div">
-        <div class="header--icon"></div>
-        <div class="header--icon"></div>
-        <div class="header--icon"></div>
-      </div>
+      <a href="javascript:void(0);" class="icon" onclick="menu()">
+        <div class="header--icon-div">
+          <div class="header--icon"></div>
+          <div class="header--icon"></div>
+          <div class="header--icon"></div>
+        </div>
+      </a>
       <div class="header--title">
         Curso Superior de Tecnologia em
         <div style="font-size: 24px;">
@@ -22,41 +26,67 @@
         </div>
       </div>
     </div>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="disciplinas.html">Disciplinas</a>
+        <a href="professores.html">Professores</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </nav>
   </header>
   <main class="main container--fix">
-      <h1 class="main--title">Professores</h1>
-      <p style="clear:right"></p>
-      <div class="clearfix main--div-prof">
-        <img class="main--image-prof" src="assets/images/marco.jpg">
-        <p class="main--text-prof">Prof.º Juliano Fisher Naves <a class="main--text-link" href="http://lattes.cnpq.br/2363129786227996">http://lattes.cnpq.br/2363129786227996</a></p>
-      </div>
-      <div class="clearfix main--div-prof">
-        <img class="main--image-prof" src="assets/images/marco.jpg">
-        <p class="main--text-prof">Prof.º Marco Antonio Andrade <a class="main--text-link" href="http://lattes.cnpq.br/2363129786227996">http://lattes.cnpq.br/2363129786227996</a></p>
-      </div>
-      <div class="clearfix main--div-prof">
-        <img class="main--image-prof" src="assets/images/marco.jpg">
-        <p class="main--text-prof">Prof.º Bruno Rover <a class="main--text-link" href="http://lattes.cnpq.br/2363129786227996">http://lattes.cnpq.br/2363129786227996</a></p>
-      </div>
-      <div class="clearfix main--div-prof">
-        <img class="main--image-prof" src="assets/images/marco.jpg">
-        <p class="main--text-prof">Prof.º Gleiser Rodrigues de Melo <a class="main--text-link" href="http://lattes.cnpq.br/2363129786227996">http://lattes.cnpq.br/2363129786227996</a></p>
-      </div>
-      <p style="clear:right"></p>
-      <div class="clearfix main--div-prof">
-          <img class="main--image-prof" src="assets/images/marco.jpg">
-          <p class="main--text-prof">Prof.º Roberto Simplício Guimarães <a class="main--text-link" href="http://lattes.cnpq.br/2363129786227996">http://lattes.cnpq.br/2363129786227996</a></p>
-        </div> 
+    <h1 class="main--title">Professores</h1>
+    <p style="clear:right"></p>
+    <div class="clearfix main--div-prof">
+      <img class="main--image-prof" src="assets/images/marco.jpg">
+      <p class="main--text-prof">Prof.º Juliano Fisher Naves <a class="main--text-link"
+          href="http://lattes.cnpq.br/2363129786227996">http://lattes.cnpq.br/2363129786227996</a></p>
+    </div>
+    <div class="clearfix main--div-prof">
+      <img class="main--image-prof" src="assets/images/marco.jpg">
+      <p class="main--text-prof">Prof.º Marco Antonio Andrade <a class="main--text-link"
+          href="http://lattes.cnpq.br/2363129786227996">http://lattes.cnpq.br/2363129786227996</a></p>
+    </div>
+    <div class="clearfix main--div-prof">
+      <img class="main--image-prof" src="assets/images/marco.jpg">
+      <p class="main--text-prof">Prof.º Bruno Rover <a class="main--text-link"
+          href="http://lattes.cnpq.br/2363129786227996">http://lattes.cnpq.br/2363129786227996</a></p>
+    </div>
+    <div class="clearfix main--div-prof">
+      <img class="main--image-prof" src="assets/images/marco.jpg">
+      <p class="main--text-prof">Prof.º Gleiser Rodrigues de Melo <a class="main--text-link"
+          href="http://lattes.cnpq.br/2363129786227996">http://lattes.cnpq.br/2363129786227996</a></p>
+    </div>
+    <p style="clear:right"></p>
+    <div class="clearfix main--div-prof">
+      <img class="main--image-prof" src="assets/images/marco.jpg">
+      <p class="main--text-prof">Prof.º Roberto Simplício Guimarães <a class="main--text-link"
+          href="http://lattes.cnpq.br/2363129786227996">http://lattes.cnpq.br/2363129786227996</a></p>
+    </div>
   </main>
   <footer class="footer">
     <div class="footer--div">
-        <img class="footer--image" src="assets/images/ifro.png">
-        <div><p class="footer--text">
+      <img class="footer--image" src="assets/images/ifro.png">
+      <div>
+        <p class="footer--text">
           <b>IFRO Campus Vilhena</b>
-          <br>Endereço: Rodovia BR-174, Km 3 S/n 
-          <br>Zona Urbana, Vilhena - RO, 76980-000 
-          <br>Telefone: (69) 2101-0700</p></div>
+          <br>Endereço: Rodovia BR-174, Km 3 S/n
+          <br>Zona Urbana, Vilhena - RO, 76980-000
+          <br>Telefone: (69) 2101-0700</p>
+      </div>
     </div>
   </footer>
+  <script>
+    function menu() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </body>
+
 </html>
