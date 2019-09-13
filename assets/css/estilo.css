@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .container{
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 .container--fix{
@@ -33,9 +33,29 @@ input[type=text] {
   }
   .header--title{
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  display: inline-block;
-  text-align: left;
+  font-size: 18px;
+  padding-top: 45px;
+  }
+  .header--title2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+  @media(max-width: 650px){
+    .header--div{
+      text-align: center;
+      padding: 20px;
+      }
+    .header--title{
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      display: inline-block;
+      text-align: left;
+      width: 300px;
+      }
+    .header--title2{
+      font-size: 24px;
+    }
   }
   .header--icon {
     width: 26px;
@@ -55,10 +75,15 @@ input[type=text] {
     }
   }
   .header--icon-align{
-    text-align: center;
-    padding-top: 25px;
-    padding-left: 5px;
-    padding-bottom: 25px;
+
+  }
+  @media(max-width: 650px){
+    .header--icon-align{
+      text-align: center;
+      padding-top: 25px;
+      padding-left: 5px;
+      padding-bottom: 25px;
+    }
   }
 
 /*main*/
@@ -70,7 +95,7 @@ input[type=text] {
     color: #00420C;
     margin-top: 25px;
   }
-
+  @media(max-width: 650px){
   .main--text{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -80,13 +105,14 @@ input[type=text] {
     display: inline-block;
     margin: 20px 5px 50px 0px;
   }
+}
   .main--lista{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 19px;
     text-align: left;
     display: inline-block;
-    margin: 25px 0px 50px 0px;
+    margin: 25px 0px 50px 17px;
   }
   .main--concept{
     font-family: 'Roboto', sans-serif;
@@ -123,6 +149,71 @@ input[type=text] {
     font-size: 18px;
     color: #00420C;
     margin: 25px 0px 50px 0px;
+  }
+  @media(min-width: 650px){
+    .main{
+      text-align: left;
+    }
+    .main--title{
+      font-family: 'Roboto', sans-serif;
+      color: #00420C;
+      margin-top: 60px;
+    }
+    .main--text{
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      display: inline-block;
+      text-align: start;
+      margin-top: 12px; 
+      max-width: 572px;
+    }
+    .main--lista{
+      margin-bottom: 120px;
+    }
+    .main--four{
+      font-family: 'Roboto', sans-serif;
+      font-size: 38px;
+      text-align: center;
+      margin: 35px;
+      height: 10px;
+    }
+    .main--concept{
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      color: #ffffff;
+      background-color: #117A25;
+      text-decoration: none;
+      display: block;
+      float: right;
+      padding: 30px;
+      margin: 15px auto;
+      margin-top: -650px;
+      border-radius: 5px;
+    }
+    .main--title-coordinator{
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      color: #00420C;
+      margin-top:-400px;
+      margin-right: 90px;
+      float: right;
+    }
+    .main--image{
+      border-radius: 5px;
+      border: 2px solid #00420C;
+      width: 170px;
+      margin-top:-360px; 
+      margin-right: 55px;
+      float: right;
+    }
+    .main--name-coordinator{
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: #00420C;
+      float: right;
+      margin-top: -170px;
+      margin-right: 10px;
+    }
   }
   .main--table{
     text-align: left;
@@ -224,7 +315,25 @@ input[type=text] {
     margin-top: 30px;
     max-width: 150px;
   }
-
+  @media(min-width: 650px){
+    .footer--image{
+    margin-top: 30px;
+    max-width: 150px;
+    float: left;
+  }  
+  .footer--text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #F2F2F2;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 50px;
+    margin: 0 auto;    
+    margin-left: -710px;
+    text-align: left;
+    display: inline-block;
+    padding-bottom: 100px;
+    }
+  }
   /*MENU*/
   body {
     margin: 0;
@@ -235,7 +344,7 @@ input[type=text] {
     overflow: visible;
     background-color: #00420C;
   }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 650px) {
     .topnav{
       overflow: hidden;
     }
@@ -259,12 +368,12 @@ input[type=text] {
     text-decoration: none;
     display: inline-block;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 650px) {
     .topnav a {
       display: none;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 650px) {
     .topnav.responsive {
       position: relative;
     }
