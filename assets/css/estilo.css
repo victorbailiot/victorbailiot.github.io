@@ -46,8 +46,13 @@ input[type=text] {
   }
   .header--icon-div{
     display: inline-block;
-    margin-bottom: 44px;
-    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-right: 22px;
+  }
+  @media(min-width: 650px){
+    .header--icon-div{
+      display: none;
+    }
   }
   .header--icon-align{
     text-align: center;
@@ -228,7 +233,7 @@ input[type=text] {
   
   .topnav {
     overflow: visible;
-    background-color: #333;
+    background-color: #00420C;
   }
   @media screen and (min-width: 600px) {
     .topnav{
@@ -252,24 +257,16 @@ input[type=text] {
   }
   .icon{
     text-decoration: none;
-  }  
-  .icon:hover{
-    text-decoration: none;
+    display: inline-block;
   }
-  
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
+    .topnav a {
       display: none;
     }
   }
   @media screen and (max-width: 600px) {
     .topnav.responsive {
       position: relative;
-    }
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
     }
     .topnav.responsive a {
       float: none;
