@@ -19,29 +19,31 @@
           <div class="header--icon"></div>
         </div>
       </a>
-      <div class="header--title">
+      <div class="header--title container">
         Curso Superior de Tecnologia em
-        <div style="font-size: 24px;">
-          <b>Análise e Desenvolvimento <br>de Sistemas</b>
+        <div class="header--title2">
+          <b>Análise e Desenvolvimento de Sistemas</b>
         </div>
       </div>
     </div>
     <nav>
       <div class="topnav" id="myTopnav">
-        <a href="index.html">Home</a>
-        <a href="disciplinas.html">Disciplinas</a>
-        <a href="professores.html">Professores</a>
-        <a href="contato.html">Contato</a>
+        <div class="container">
+          <a href="index.html">Home</a>
+          <a href="disciplinas.html">Disciplinas</a>
+          <a href="professores.html">Professores</a>
+          <a href="contato.html">Contato</a>
+        </div>
       </div>
     </nav>
-  </header>
-  <main class="main">
+  </header> 
+  <main class=" main container">
     <div>
       <h1 class="main--title">Disciplinas</h1>
     </div>
     <div>
       <table class="main--table">
-        <div class="main--table-div">
+        <div>
           <th>1 º Semestre</th>
           <tr>
             <td>
@@ -79,6 +81,8 @@
             </td>
           </tr>
         </div>
+      </table>
+      <table class="main--table2">
         <div>
           <th>4 º Semestre</th>
           <tr>
@@ -121,17 +125,19 @@
     </div>
   </main>
   <footer class="footer">
-    <div class="footer--div">
-      <img class="footer--image" src="assets/images/ifro.png">
-      <div>
-        <p class="footer--text">
-          <b>IFRO Campus Vilhena</b>
-          <br>Endereço: Rodovia BR-174, Km 3 S/n
-          <br>Zona Urbana, Vilhena - RO, 76980-000
-          <br>Telefone: (69) 2101-0700</p>
+      <div class="footer--div">
+        <div class="container">
+          <img class="footer--image container" src="assets/images/ifro.png">
+        </div>
+        <div>
+          <p class="footer--text">
+            <b>IFRO Campus Vilhena</b>
+            <br>Endereço: Rodovia BR-174, Km 3 S/n
+            Zona Urbana, Vilhena - RO, 76980-000
+            Telefone: (69) 2101-0700</p>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
   <script>
     function menu() {
       var x = document.getElementById("myTopnav");
