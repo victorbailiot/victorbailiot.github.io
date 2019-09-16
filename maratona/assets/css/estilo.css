@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+}   
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-image: url("background_cabecalho.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+@media(min-width: 600px) {
+    header{
+        padding-bottom: 50px;
+    }
+}
+.menu{
+    text-align: center;
+}
+.menu__sub{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width: 600px){
+    .menu{
+
+    }
+    .menu__sub{
+      flex-direction: row;
+      justify-content: center;
+      background-color: rgba(229, 229, 229, 0.5);
+      padding: 5px;
+      margin-bottom: 70px;
+    }
+  }
+  @media(max-width: 600px) {
+      .menu__inscricao{
+          display: none;
+      }
+  }
+.menu__item > a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 14px;
+    padding-right: 15px;
+  }
+.menu__item > a:hover{
+    background-color: white;
+  }
+.cabecalho__corpo{
+    text-align: center;
+    padding: 3px;
+}
+.cabecalho__subtitulo{
+    font-size: 14px;
+}
+.cabecalho__texto{
+    margin-bottom: 20px;
+    background-color:rgba(241, 196, 15, 0.7);
+    padding: 15px;
+    display: inline-block;
+    font-weight: normal;
+}
+.botao_inscricao{
+    margin-top: 20px;
+    background-color: #E74C3C;
+    border-radius: 5px;
+    color: white;
+    width: 98px;
+    height: 29px;
+    border: 0;
+}
+@media(min-width: 600px) {
+    .botao_inscricao{
+        margin-top: 4px;
+        width: 75px;
+        height: 19px;
+    }
+    .cabecalho__botao{
+        display: none;
+    }
+}
+
+
+.maratona__titulos{
+    text-align: center;
+    margin: 50px 20px 40px;
+    font-size: 22px;
+}
+.maratona__titulos--subtitulo{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.maratona__texto{
+    max-width: 327px;
+    margin: 20px auto;
+}
+@media(min-width: 600px) {
+    .maratona__texto{
+    max-width: 1050px;
+    }
+}
+
+.programacao__titulo{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.table{
+    max-width: 400px;
+    margin: 0 auto;
+}
+@media(min-width: 600px) {
+    .table{
+    max-width: 100%;
+    }
+}
+ .table{
+    border: 1px black solid;
+    border-collapse: collapse;
+  }
+  .table th, .table td{
+    padding: 10px 20px;
+    text-align: left;
+  }
+  @media(min-width: 1050px) {
+    .table th, .table td{
+        padding: 10px 60px;
+      }
+  }
+
+  .table tr:nth-child(1){
+    background-color: lightgray;
+  }
+  .table tr:not(:nth-child(1)):hover{     
+    background-color: rgba(241, 196, 15, 0.7);
+  }
+
+  .localizacao__titulo{
+      margin-top: 90px;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  .localizacao__mapa{
+    display: flex;
+    justify-content: center;
+  }
+  .localizacao__mapa iframe{
+      height: 299px;
+      width: 100%;
+  }
+  @media(min-width: 600px) {
+      .localizacao__mapa iframe{
+          height: 500px;
+      }
+  }
+
+  /* CONTATO */
+  .contato{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .contato__titulo{
+      text-align: center;
+      margin-top: 90px;
+      margin-bottom: 30px;
+  }
+  .contato__formulario--label{
+      margin-left: 20px;
+  }
+  .contato__formulario--campo{
+    border: 1px solid #F1C40F;
+    margin: 10px 20px 20px;
+    width: 322px;
+    height: 30px;
+  }
+  .contato__formulario--campo-msg{
+    border: 1px solid #F1C40F;
+    margin: 7px 20px 15px;
+    width: 322px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+  .botao_enviar-formulario{
+    background-color: #F1C40F;
+    border-radius: 5px;
+    color: white;
+    width: 180px;
+    height: 29px;
+    border: 0;
+    margin-bottom: 70px;
+}
+@media(min-width: 800px) {
+    .contato__titulo{
+        margin-bottom: 50px;
+    }
+    .contato__formulario{
+        margin-left: -450px;
+    }
+    .contato__formulario--mensagem{
+        margin-left: 450px;
+        margin-top: -160px;
+        }
+        .botao_enviar-formulario{
+            width: 80px;
+            margin-left: 690px;
+            margin-top: -10px;
+        }
+}
+
+
+  /* RODAPE */
+  .rodape{
+      background-color: #F1C40F;
+      padding: 40px;
+  }
+.rodape__imagens{
+    display: flex;
+    justify-content: center;
+}
+.rodape__logo{
+    width: 70px;
+    height: 84px;
+    margin-bottom: 20px;
+}
+.rodape__textos{
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.rodape__titulo{
+    font-weight: bold;
+}
+.rodape__endereco{
+    max-width: 322px;
+}
+@media(min-width: 600px) {
+    .rodape__endereco{
+    max-width: 659px;
+    }
+}
