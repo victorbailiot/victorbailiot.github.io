@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .container{
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -88,6 +88,7 @@ input[type=text] {
     font-family: 'Roboto', sans-serif;
     color: #00420C;
     margin-top: 25px;
+    font-weight: normal;
   }
   @media(max-width: 650px){
   .main--text{
