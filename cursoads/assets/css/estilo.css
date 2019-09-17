@@ -152,6 +152,7 @@ input[type=text] {
       font-family: 'Roboto', sans-serif;
       color: #00420C;
       margin-top: 60px;
+      font-weight: normal;
     }
     .main--text{
       font-family: 'Roboto', sans-serif;
@@ -181,7 +182,7 @@ input[type=text] {
       float: right;
       padding: 30px;
       margin: 15px auto;
-      margin-top: -650px;
+      margin-top: -612px;
       border-radius: 5px;
     }
     .main--title-coordinator{
@@ -207,6 +208,7 @@ input[type=text] {
       float: right;
       margin-top: -170px;
       margin-right: 10px;
+      font-weight: normal;
     }
   }
   .main--table{
