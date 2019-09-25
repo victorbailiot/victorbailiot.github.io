@@ -68,9 +68,6 @@ input[type=text] {
       display: none;
     }
   }
-  .header--icon-align{
-
-  }
   @media(max-width: 650px){
     .header--icon-align{
       text-align: center;

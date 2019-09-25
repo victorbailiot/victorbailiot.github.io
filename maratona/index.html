@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +7,27 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
     <title>Maratona de programação</title>
 </head>
-
 <body>
-    <header class="cabecalho ">
+    <header class="cabecalho">
         <nav class="menu">
+            <div class="topnav" id="myTopnav">
             <ul class="menu__sub ">
-                <li class="menu__item"><a href="#">Início</a></li>
                 <li class="menu__item"><a href="#sobre">Sobre</a></li>
                 <li class="menu__item"><a href="#programacao">Programação</a></li>
                 <li class="menu__item"><a href="#localizacao">Localização</a></li>
                 <li class="menu__inscricao"><button class="botao_inscricao">Inscrição</button></li>
             </ul>
         </nav>
+        <a href="javascript:void(0);" class="icon" onclick="menu()">
+                <div class="header--icon-div">
+                    <div class="header--icon"></div>
+                    <div class="header--icon"></div>
+                    <div class="header--icon"></div>
+                </div>
+        </a>
         <div class="cabecalho__corpo ">
             <div>
-                <h1 class="cabecalho__texto">XXIII MARATONA SBC DE PROGRAMAÇÃO</h1>
+                <h1 class="cabecalho__texto2">XXIII MARATONA SBC DE PROGRAMAÇÃO</h1>
             </div>
             <nav>
                 <div class="cabecalho__subtitulo">
@@ -152,5 +157,15 @@
             </div>
         </footer>
     </main>
+    <script>
+        function menu() {
+            var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 </html>
