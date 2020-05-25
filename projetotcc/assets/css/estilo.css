@@ -3,20 +3,21 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: roboto;
+    overflow-x: hidden;
 }   
 .container{
     max-width: 1600px;
     margin: 0 auto;
 }
 header{
-    background-image: url("background_cabecalho.jpg");
+    background-image: url("background_cabecalho.jpeg");
     background-position: center;
     background-size: cover;
     padding-bottom: 20px;
 }
 @media(min-width: 600px) {
     header{
-        padding-bottom: 50px;
+      padding-bottom: 50px;
     }
 }
 .menu{
