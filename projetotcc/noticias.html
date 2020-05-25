@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+  <link href="assets/css/estilo.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap"
+    rel="stylesheet">
+  <title>Conhecendo os povos Nambikwara em Vilhena</title>
+  <style>
+    .card2 {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.5s;
+      width: 70%;
+      border-radius: 5px;
+      position: relative;
+      left: 16%;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+      border-radius: 5px 5px 0 0;
+    }
+
+    .container2 {
+      padding: 10px 17px;
+    }
+
+    .button {
+      background-color: #B3AA99;
+      border: none;
+      color: white;
+      padding: 10px 40px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 8px;
+      margin-top: 15px;
+      margin-left: 26%;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <nav class="menu">
+      <div class="topnav" id="myTopnav">
+        <ul class="menu--sub ">
+          <li class="menu--item"><a href="index.html">Inicio</a></li>
+          <li class="menu--item"><a href="#programacao">Estudos</a></li>
+          <li class="menu--item"><a href="noticias.html">Notícias</a></li>
+          <li class="menu--item"><a href="videos.html">Vídeos</a></li>
+          <li class="menu--item"><a href="galeria.html">Galeria</a></li>
+        </ul>
+    </nav>
+    <a href="javascript:void(0);" class="icon" onclick="menu()">
+      <div class="header--icon-div">
+        <div class="header--icon"></div>
+        <div class="header--icon"></div>
+        <div class="header--icon"></div>
+      </div>
+    </a>
+    <div class="cabecalho--corpo ">
+      <div>
+        <h1 class="cabecalho--texto2">Objeto de Aprendizagem Virtual</h1>
+      </div>
+      <nav>
+        <div class="cabecalho--subtitulo">
+          <h2 class="cabecalho--texto">Conhecendo os povos Nambikwara em Vilhena</h2>
+        </div>
+        <div>
+          <p class="cabecalho--texto">Vilhena - RO</p>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h2 style="padding: 10px;text-align: center;">Notícias</h2>
+    <section class="container">
+
+      <div style="padding-bottom: 20px;" class="responsive">
+        <a
+          href="https://www.conesulnoticias.com.br/27/11/2018/projeto-cultura-itinerante-visita-aldeia-e-lanca-documentario-sobre-ritual-da-menina-moca/">
+          <div class="card2">
+            <img src="/projetotcc/assets/images/noticia_1.jpg" alt="Noticia 1" style="width:100%">
+            <div class="container2">
+              <h4><b>Cone Sul Notícias - Projeto Cultura Itinerante visita Aldeia e lança
+                  documentário sobre Ritual da Menina Moça.</b></h4>
+              <button class="button button2">Saiba mais</button>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <div style="margin-bottom: 10px;"></div>
+    <footer class="rodape">
+      <div class="rodape--imagens">
+        <img src="assets/images/logo_ifro.png" class="rodape--logo" alt="Logotipo do IFRO">
+      </div>
+      <div class="rodape--textos">
+        <div class="rodape--titulo">IFRO Campus Vilhena</div>
+        <div class="rodape--endereco">Endereço: Rodovia BR 174, KM 3 S/n Zona Urbana, Vilhena - RO,
+          76980-000
+          <br>Telefone: (69) 2101-0700</br></div>
+      </div>
+    </footer>
+  </main>
+  <script>
+    function menu() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+
+</html>
