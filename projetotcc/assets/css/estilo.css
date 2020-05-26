@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: roboto;
+    overflow-x: hidden;
 }
 a:link, a:visited, a:active {
   text-decoration: none;
