@@ -164,21 +164,13 @@ header{
   }
 
   .localizacao--titulo{
-      margin-top: 90px;
+      margin-top: 50px;
       margin-bottom: 20px;
       text-align: center;
   }
-  .localizacao--mapa{
-    display: flex;
-    justify-content: center;
-  }
-  .localizacao--mapa iframe{
-      height: 299px;
-      width: 100%;
-  }
-  @media(min-width: 600px) {
-      .localizacao--mapa iframe{
-          height: 500px;
+  @media(max-width: 600px) {
+      .localizacao{
+          width: 100%;
       }
   }
 
