@@ -1,18 +1,4 @@
 /* ===================================
-    About
-====================================== */
-
-/*
-    Theme Name: MegaOne
-    Theme URI:
-    Author: Themes Industry
-    Author URI:
-    Description: One Page Parallax Template
-    Tags: one page, multipurpose, parallax, creative, html5
-
- */
-
-/* ===================================
     Table of Content
 ====================================== */
 
@@ -755,6 +741,7 @@ header .user-links li a .badge{
     top: 42px;
     right: 49px;
     cursor: pointer;
+    z-index: 6;
 }
 /*.header-appear ~ .side-menu .btn-close {*/
 /*    top:50px;*/
@@ -1121,7 +1108,7 @@ select::placeholder { color: #ffffff; }
 /* ===================================
     portfolio area inner gallery sec
 ====================================== */
-.portfolio-area{}
+
 .portfolio-area .portfolio-item{
     cursor: pointer;
     margin-bottom: 30px;
@@ -1164,8 +1151,9 @@ select::placeholder { color: #ffffff; }
 }
 .portfolio-area .portfolio-item .portfolio-inner-content .item-detail-area .item-name{
     color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 3px;
     transition: .5s ease;
 }
 .portfolio-area .portfolio-item .portfolio-inner-content .item-detail-area .item-reviews{
@@ -1197,7 +1185,7 @@ select::placeholder { color: #ffffff; }
 }
 
 /* ===================================
-          Testimonials sec
+        Testimonials sec
 ====================================== */
 .testimonial{
     background-image: url("../img/test-banner.jpg");
@@ -1767,6 +1755,11 @@ select::placeholder { color: #ffffff; }
 /* ===================================
        mini shopping cart
 ====================================== */
+@media screen and (max-width:768px){
+    .user-links{
+        display: none;
+    }
+}
 
 .header-shop-cart .minicart {
     background: #191919;

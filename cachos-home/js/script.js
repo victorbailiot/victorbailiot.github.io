@@ -28,7 +28,7 @@ jQuery(function ($) {
 
     "use strict";
     /* ===================================
-           Header appear
+        Header appear
         ====================================== */
 
     $(window).on('scroll', function () {
