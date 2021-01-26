@@ -12653,7 +12653,7 @@ blockquote footer cite {
   margin-top: -30px;
   cursor: pointer;
 }
-.prev-lightbox-item:after, .prev-lightbox-item:before, .next-lightbox-item:after, .next-lightbox-item:before {
+.prev-0-item:after, .prev-lightbox-item:before, .next-lightbox-item:after, .next-lightbox-item:before {
   content: "";
   position: absolute;
   display: block;
