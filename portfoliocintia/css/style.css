@@ -1,0 +1,13 @@
+.texto{
+    font-size: 75px;
+    color: #a4e62bc1;
+    display: flex;
+    justify-content: center;
+}
+.navegator{
+    margin-left: 100px;
+    display: inline-block;
+}
+.background{
+    background-color: blueviolet;
+}
