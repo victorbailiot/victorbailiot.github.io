@@ -9,14 +9,14 @@
 
 .center-card {
     align-items: center !important;
-    justify-content: center !important;
+    justify-content: space-around !important;
 }
 
 .card1 {
-    
+    justify-content: space-around !important;
     background-color: white;
-    width: 250px;
-    min-height: 404.5px;
+    width: 320px;
+    min-height: 454.5px;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -75,7 +75,7 @@
 }
 .card1 button {
     border: none;
-    width: 50%;
+    width: 60%;
     margin: 10px auto;
     padding: 10px 30px;
     border: 1px solid transparent;
