@@ -1,12 +1,16 @@
 .container-card {
-    width: 80%;
-    min-height: 100vh;
+    width: 70%;
+    min-height: 80vh;
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
 }
-
+@media(max-width: 899px) {
+    .container-card .card1{
+        margin-bottom: 75px;
+    }
+}
 .center-card {
     align-items: center !important;
     justify-content: space-around !important;
@@ -14,19 +18,19 @@
 
 .card1 {
     justify-content: space-around !important;
-    background-color: white;
-    width: 320px;
-    min-height: 454.5px;
+    background-color: #fafafa;
+    width: 360px;
+    min-height: 504.5px;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin: 5px;
-    box-shadow: -20px -20px 0px 0px #1C2438;
+    margin: 5px;    
+    box-shadow: -20px -20px 0px 0px #f9a766;
     border-radius: 10px;
     -webkit-animation-name: shadow-show;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 2.5s;
     animation-name: shadow-show;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
     transition-timing-function: cubic-bezier(0.795, 0, 0.165, 1);
 }
 .card1 h1,
@@ -45,7 +49,7 @@
     display: block;
     border: none;
     height: 3px;
-    background-color: #1C2438;
+    background-image: linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0), #f9a766 0%, #fe7773 100%);
     margin: 0px;
     -webkit-animation-name: line-show;
     /* Safari 4.0 - 8.0 */
@@ -73,23 +77,42 @@
     animation-name: p-show;
     animation-duration: 1.5s;
 }
-.card1 button {
-    border: none;
-    width: 60%;
-    margin: 10px auto;
-    padding: 10px 30px;
+.main-buttonc {
     border: 1px solid transparent;
-    -webkit-border-image: -webkit-linear-gradient(right, #f9a766 0%,#fe7773 100%);
-    -moz-border-image: -moz-linear-gradient(right, #f9a766 0%,#fe7773 100%);
-    -o-border-image: -o-linear-gradient(right, #f9a766 0%,#fe7773 100%);
-    border-image: linear-gradient(to right, #f9a766 0%,#fe7773 100%);
+    -webkit-border-image: 
+    -webkit-linear-gradient(right, #f9a766 0%,#fe7773 100%);
+    -moz-border-image:
+    -moz-linear-gradient(right, #f9a766  0%,#fe7773 100%);  
+    -o-border-image:
+    -o-linear-gradient(right, #f9a766 0%,#fe7773 100%);
+    border-image:
+    linear-gradient(to right, #f9a766 0%,#fe7773 100%);
     border-image-slice: 1;
-    background-image: linear-gradient(to right, #f9a766, #fe7773);
+    padding: 15px 60px;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0), #f9a766, #fe7773);
+    background-size: 300% 100%;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    font-family: "Noto Sans KR", sans-serif;
-    text-transform: uppercase;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.315);
+}
+
+.main-buttonc:hover {
+    color: #111;
+    background-position: 100% 100%;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.main-buttonc span, .top-buttonc span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.main-buttonc:focus, .top-buttonc:focus {
+    outline: none;
 }
 
   /* Safari 4.0 - 8.0 */
@@ -98,7 +121,7 @@ from {
         margin: 0px 100px;
     }
 to {
-        margin: 0px;
+        margin: 0px 100px;
     }
 }
   /* Standard syntax */
@@ -107,7 +130,7 @@ from {
     margin: 0px 100px;
     }
 to {
-    margin: 0px;
+    margin: 0px 125px;
     }
 }
   /* Safari 4.0 - 8.0 */
@@ -134,7 +157,7 @@ from {
     box-shadow: 0px 0px 0px 0px #e0e0e0;
     }
 to {
-    box-shadow: -20px -20px 0px 0px ##1C2438;
+    box-shadow: -20px -20px 0px 0px #f8ae71;
     }
 }
   /* Standard syntax */
@@ -143,6 +166,6 @@ from {
     box-shadow: 0px 0px 0px 0px #e0e0e0;
     }
     to {
-    box-shadow: -20px -20px 0px 0px #1C2438;
+    box-shadow: -20px -20px 0px 0px #f8ae71;
     }
 }
