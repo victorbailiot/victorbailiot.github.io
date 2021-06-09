@@ -1542,7 +1542,7 @@ input:focus, textarea:focus {
 
 .footer .social li a {
     text-align: center;
-    border: 1px solid #f9a766;
+    border: 1px solid #F01130;
     margin: 0 10px;
     width: 40px;
     height: 40px;
@@ -1555,7 +1555,7 @@ input:focus, textarea:focus {
 }
 
 .footer .social li:hover a {
-    color: #f9a766;
+    color: #f03053;
 }
 
 .mail-nav {
