@@ -1536,8 +1536,8 @@ input:focus, textarea:focus {
                     [ 13. Footer ]
 -----------------------------------------------------------------*/
 .footer {
-    
-    padding-bottom: 30px !important;
+    padding-bottom: 20px !important;
+    padding: -20px !important;
 }
 
 .footer .social li a {

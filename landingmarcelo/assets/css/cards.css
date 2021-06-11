@@ -49,8 +49,9 @@
     display: block;
     border: none;
     height: 3px;
-    background-image: linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0), #F01130 0%,#FF5574 100%);
+    background-image: linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0), #F01130 0%,#ffc2cd 100%);
     margin: 0px;
+    border-radius: 15px;
     -webkit-animation-name: line-show;
     /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 0.3s;
@@ -78,7 +79,6 @@
     animation-duration: 1.5s;
 }
 .main-buttonc {
-    border: 1px solid transparent;
     -webkit-border-image: 
     -webkit-linear-gradient(right, #F01130 0%,#FF5574 100%);
     -moz-border-image:
@@ -89,13 +89,14 @@
     linear-gradient(to right, #F01130 0%,#FF5574 100%);
     border-image-slice: 1;
     padding: 15px 60px;
-    color: rgb(0, 0, 0);
-    background-image: linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0), #F01130 ,#FF5574);
+    color: rgb(243, 243, 243);
+    background-image: linear-gradient(to right, #58626d75 , #586470ab, #F01130 ,#FF5574);
     background-size: 300% 100%;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.315);
+    border-radius: 15px;
 }
 
 .main-buttonc:hover {
@@ -104,6 +105,7 @@
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+    border-radius: 15px;
 }
 
 .main-buttonc span, .top-buttonc span {
