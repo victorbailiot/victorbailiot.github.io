@@ -436,8 +436,8 @@ header a.logo img {
     transition: all .3s linear;
     width: 36px;
     padding: 6px;
+    margin-top: -13px;
     margin-right: 1rem;
-    margin-top: .4rem;
     position: absolute;
     right: 15px;
     display: inline-block;
