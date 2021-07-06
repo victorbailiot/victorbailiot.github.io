@@ -1,0 +1,38 @@
+body, html{
+    height: 100% !important;
+    margin: 0 !important;
+}
+a{
+    text-decoration: none !important;
+}
+h4{
+    color: #fff !important;
+}
+.container{
+    max-width: 1600px !important;
+}
+.background{
+    height: 100% !important;
+    background-image: url(https://www.expressorodotec.com/wp-content/uploads/2021/05/bgc-dashboard-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.col{
+    text-align: center;
+    padding-top: 1.3rem;
+}
+.icon{
+    color: #fff;
+    border: 2px solid rgb(255, 242, 54);
+    border-radius: 30px;
+    padding: 1rem;
+    font-size: 48px;
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 576px) {
+    
+}
