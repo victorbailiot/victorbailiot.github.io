@@ -237,7 +237,7 @@ header a.logo {
     display: inline-block;
 }
 header a.logo img {
-    max-width: 170px;
+    max-width: 85px;
     vertical-align: sub;
 }
 
