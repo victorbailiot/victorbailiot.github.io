@@ -292,50 +292,50 @@ $('.home-banner').mousemove(function(e) {
 
 
     /* =====================================
-               image portfolio
+                image portfolio
      ====================================== */
 
+    jQuery(document).ready(function ( handler ) {
+        $('#js-grid-masonry').cubeportfolio({
+            filters: '#js-filters-full-width',
+            layoutMode: 'mosaic',
+            defaultFilter: '*',
+            animationType: 'slideDelay',
+            gapHorizontal: 10,
+            gapVertical: 10,
+            gridAdjustment: 'responsive',
+            mediaQueries: [{
+                width: 1500,
+                cols: 5,
+            }, {
+                width: 1100,
+                cols: 4,
+            }, {
+                width: 800,
+                cols: 3,
+            }, {
+                width: 480,
+                cols: 2,
+                options: {
+                    caption: '',
+                }
+            }],
+            caption: 'zoom',
+            displayType: 'bottomToTop',
+            displayTypeSpeed: 100,
 
-    $('#js-grid-masonry').cubeportfolio({
-        filters: '#js-filters-full-width',
-        layoutMode: 'mosaic',
-        defaultFilter: '*',
-        animationType: 'slideDelay',
-        gapHorizontal: 10,
-        gapVertical: 10,
-        gridAdjustment: 'responsive',
-        mediaQueries: [{
-            width: 1500,
-            cols: 5,
-        }, {
-            width: 1100,
-            cols: 4,
-        }, {
-            width: 800,
-            cols: 3,
-        }, {
-            width: 480,
-            cols: 2,
-            options: {
-                caption: '',
-            }
-        }],
-        caption: 'zoom',
-        displayType: 'bottomToTop',
-        displayTypeSpeed: 100,
-
-        // lightbox
-        // lightbox
-        lightboxDelegate: '.cbp-lightbox',
-        lightboxGallery: true,
-        lightboxTitleSrc: 'data-title',
-        lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
+            // lightbox
+            // lightbox
+            lightboxDelegate: '.cbp-lightbox',
+            lightboxGallery: true,
+            lightboxTitleSrc: 'data-title',
+            lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
+        });
     });
 
     /* ===================================
-           slick for testimonial
+            slick for testimonial
      ====================================== */
-
 
     $('.slick-test').slick({
         vertical: true,

@@ -28,11 +28,17 @@
     Google font
 ====================================== */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,500,700&display=swap');
+@font-face {
+    font-family: 'roc';
+    src: url(../fonts/roc-grotesk-light.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-.main-font{font-family: 'Roboto', sans-serif;}
+.main-font{font-family: 'Poppins', sans-serif;}
 .alt-font{font-family: 'Poppins', sans-serif;}
+
 
 /* ===================================
     Scrollbar
@@ -57,7 +63,7 @@
     General
 ====================================== */
 
-body {font-family: 'Roboto', sans-serif; font-size: 16px;color: #101820;font-weight:300;line-height:25px;width: 100%; overflow-x: hidden}
+body {font-family: 'Poppins', sans-serif; font-size: 16px;color: #101820;font-weight:300;line-height:25px;width: 100%; overflow-x: hidden}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {line-height: 1.2; font-weight: 500; font-family: 'Poppins', sans-serif;}
 a, *::before, *::after, img, span, input, button, .navbar, .fixedmenu, .tp-bullet, .owl-dot, .owl-prev, .owl-next {transition: ease-in-out 0.2s;-webkit-transition: ease-in-out 0.2s;-moz-transition: ease-in-out 0.2s;-ms-transition: ease-in-out 0.2s;-o-transition: ease-in-out 0.2s;}
 section,.section-padding {position: relative;overflow: hidden;}
@@ -104,7 +110,7 @@ section{padding-top: 120px;}
 .btn.btn-rounded {border-radius: 50px;}
 
 
-.yellow-and-white-slider-btn{font-size: 14px;font-family: Roboto, sans-serif;letter-spacing:3px;padding: 10px 25px;color:#ffffff;font-weight: 500;background-color:#fe5000;border:1px solid transparent;border-radius: 0px;-webkit-transition: .8s ease !important;-o-transition: .8s ease !important;transition: .8s ease !important;}
+.yellow-and-white-slider-btn{font-size: 14px;font-family: 'Poppins', sans-serif;letter-spacing:3px;padding: 10px 25px;color:#ffffff;font-weight: 500;background-color:#fe5000;border:1px solid transparent;border-radius: 0px;-webkit-transition: .8s ease !important;-o-transition: .8s ease !important;transition: .8s ease !important;}
 .yellow-and-white-slider-btn:hover{ color:#ffffff !important;background-color:#000000 !important; }
 
 .black-and-white-slider-btn{font-size: 12px;font-family: 'Poppins', sans-serif;padding: 10px 25px;color:#ffffff;font-weight: 600;background-color:#000000;border:1px solid transparent;border-radius: 0px;-webkit-transition: .8s ease !important;-o-transition: .8s ease !important;transition: .8s ease !important;}
@@ -671,7 +677,7 @@ header a.logo img {
     margin-right: 20px;
 }
 .heading-details .top-des{
-    font-family: Roboto, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -755,7 +761,7 @@ header a.logo img {
 color: #fe5000;
 }
 .production-sec .production-box .production-des{
-    font-family: Roboto, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
 
@@ -875,7 +881,7 @@ padding-top: 0;
 }
 .latest-items .list-item-slider .item .product-detail .text-des{
     font-size: 15px;
-    font-family: Roboto, sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: block;
     width: 90%;
     margin-bottom: 10px;
@@ -916,7 +922,7 @@ padding-top: 0;
     /*border: 1px solid #d9d9d9;*/
     padding: 7px 0;
     margin-right: 7px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #000;
     opacity: .8;
@@ -964,7 +970,7 @@ padding-top: 0;
 }
 .portfolio-sec .cbp-l-caption-title {
     color: #fff;
-    font: 400 20px/21px 'Roboto', sans-serif;
+    font: 400 20px/21px 'Poppins', sans-serif;
 }
 /* ===================================
         Our Cast sec css
@@ -1003,7 +1009,7 @@ padding-top: 0;
 }
 .our-cast .cast-card .cast-detail .cast-designation{
     font-size: 12px;
-    font-family: Roboto, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #fe5000;
     margin-bottom: 15px;
@@ -1012,7 +1018,7 @@ padding-top: 0;
 }
 .our-cast .cast-card .cast-detail .cast-des{
     font-size: 15px;
-    font-family: Roboto, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #000000;
     margin-bottom: 15px;
@@ -1085,7 +1091,7 @@ padding-top: 0;
     min-height: 300px;
 }
 .testimonial-sec .reviews{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .testimonial-sec .review-box{
     padding-left: 50px;
@@ -1134,10 +1140,10 @@ padding-top: 0;
 .testimonial-sec .reviews .user-comment{
     font-size: 16px;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .testimonial-sec .reviews .comment-date{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-size: 12px;
     font-weight: 300;
@@ -1254,7 +1260,7 @@ padding-top: 0;
 
 
 .news_item h3{
-    font-family: Roboto, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #000000;
     font-size: 27px;
@@ -1363,7 +1369,7 @@ padding-top: 0;
 .contact-sec .contact-details .contact-heading{
     color: #101820;
     font-size: 40px;
-    font-family: 'oswald',sans-serif;
+    font-family: 'roc',sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 20px;
@@ -1372,7 +1378,7 @@ padding-top: 0;
     font-size: 16px;
     color: #000000;
     opacity: .8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     margin-bottom: 20px;
 }
@@ -1380,7 +1386,7 @@ padding-top: 0;
     padding-left: 0;
 }
 .contact-sec .contact-details .contact-list li{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     list-style: none;
     color: #000000;
@@ -1755,13 +1761,13 @@ padding-bottom: 120px;
     font-size: 40px;
     color: #000000;
     font-weight: 500;
-    font-family: Roboto , sans-serif;
+    font-family: 'Poppins' , sans-serif;
 }
 
 .standalone-detail .para_text{
     color: #000000;
     font-weight: 500;
-    font-family: Roboto , sans-serif;
+    font-family: 'Poppins' , sans-serif;
     text-align: center;
     font-size: 15px;
     margin: 0 auto;
@@ -1776,12 +1782,12 @@ padding-bottom: 120px;
     padding-bottom: 100px;
 }
 .standalone-area .gradient-text1{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     margin-bottom: 12px;
 }
 .standalone-area .stand-img-des .para_text{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #000000;
     font-weight: 300;
     opacity: .8;
