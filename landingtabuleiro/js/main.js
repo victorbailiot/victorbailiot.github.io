@@ -285,8 +285,8 @@ jQuery(function ($) {
 
     //show/hide map
     var _contactWrapper = $('.contact-wrapper'),
-        _txt = 'VIEW MAP <i class="ml-symone-2-arrow-left-right-up-down-increase-decrease"></i>',
-        _alterTxt = '<i class="ml-symone-1-arrow-left-right-up-down-increase-decrease"></i> CONTACT US';
+        _txt = 'VEJA NO MAPA <i class="ml-symone-2-arrow-left-right-up-down-increase-decrease"></i>',
+        _alterTxt = '<i class="ml-symone-1-arrow-left-right-up-down-increase-decrease"></i>  CONTATE-NOS';
 
     $.fn.extend({
         toggleText: function (a, b) {
