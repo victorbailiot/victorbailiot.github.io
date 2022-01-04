@@ -41,7 +41,7 @@ if ($fname == "") {
     $msg['field'] = "message";
     $msg['code'] = FALSE;
 } else {
-    $to = 'user@example.com';
+    $to = 'victor_bailiot@hotmail.com';
     $subject = 'Cynic Trendy - Contact Request';
     $message = '<html><head></head><body>';
     $message .= '<p>First Name: ' . $fname . '</p>';
@@ -56,7 +56,7 @@ if ($fname == "") {
     $headers .= 'cc: test@example.com' . "\r\n";
     $headers .= 'bcc: test@example.com' . "\r\n";
 
-    mail($to, $subject, $message, $headers, '-f test@example.com');
+    mail($to, $subject, $message, $headers, '-f victor@nextgrid.com.br');
 
     $msg['success'] = "\n Email has been sent successfully.";
     $msg['code'] = TRUE;
