@@ -663,7 +663,7 @@ header a.logo img {
     display: inline-block;
     height: 6px;
     width: 80px;
-    background-color: #ffc107;
+    background-color: #fe5000;
     margin-bottom: 16px;
     margin-left: 20px;
 }
@@ -672,7 +672,7 @@ header a.logo img {
     display: inline-block;
     height: 6px;
     width: 80px;
-    background-color: #ffc107;
+    background-color: #fe5000;
     margin-bottom: 16px;
     margin-right: 20px;
 }
@@ -1525,6 +1525,7 @@ padding-bottom: 120px;
 }
 
 .footer-social a {
+    color: #101820;
     display: block;
     width: 45px;
     height: 45px;
