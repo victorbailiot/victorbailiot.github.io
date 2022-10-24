@@ -1,0 +1,8 @@
+@media screen and(max-width: 576px){
+    .mobilie{
+        background-position: left !important;
+    }
+}
+.mobilie{
+    background-position: center !important;
+}
