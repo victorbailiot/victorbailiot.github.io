@@ -1,8 +1,8 @@
-@media screen and(max-width: 576px){
+@media screen and (max-width: 576px){
     .mobilie{
-        background-position: left !important;
+        background-position: 0% !important;
     }
 }
 .mobilie{
-    background-position: center !important;
+    background-position: center;
 }
